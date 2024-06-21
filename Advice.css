@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    font-family: "Manrope";
+    font-weight: 800;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #202632;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 40px 32px 0;
+    border-radius: 16px;
+    background-color: #313A49;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.id{
+    color: hsl(150, 100%, 66%);
+}
+
+.advice{
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+    font-size: 28px;
+    margin: 24px 0 32px 0;
+}
+
+.button{
+    border: 0;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+    background-color: hsl(150, 100%, 66%);
+    background-image: url('images/icon-dice.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateY(30px);
+}
+
+.pattern{
+    width: 100%;
+}
+
+@media (max-width: 560px){
+    .main{
+        width: 88%;
+    }
+}
+
+@media (max-width: 560px){
+    .main{
+        width: 88%;
+    }
+}
+
+@media (max-width: 380px){
+    .main{
+        width: 95%;
+    }
+}
